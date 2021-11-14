@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.deansquirrel</groupId>
   <artifactId>tools-swagger</artifactId>
-   <version>0.0.0</version>
-<!--  <version>0.0.1</version>-->
+<!--   <version>0.0.0</version>-->
+  <version>0.0.1</version>
   <name>tools-swagger</name>
   <url>https://github.com/Deansquirrel/jtools-swagger</url>
   <description>tools swagger</description>
@@ -157,7 +157,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-<!--        <version>3.8.0</version>-->
+        <version>3.8.0</version>
         <configuration>
           <source>8</source>
           <target>8</target>

@@ -13,7 +13,7 @@ public class SwaggerAutoConfiguration {
         return new ISwaggerConfig() {
             @Override
             public Boolean getEnable() {
-                return null;
+                return false;
             }
 
             @Override
