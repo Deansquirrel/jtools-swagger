@@ -6,38 +6,38 @@ public interface ISwaggerConfig {
 
     /**
      * 是否启用
-     * @return
+     * @return 是否启用
      */
-    public Boolean getEnable();
+    Boolean getEnable();
 
     /**
      * 标题
-     * @return
+     * @return 标题
      */
-    public String getTitle();
+    String getTitle();
 
     /**
      * 描述
-     * @return
+     * @return 描述
      */
-    public String getDescription();
+    String getDescription();
 
     /**
      * 版本
-     * @return
+     * @return 版本
      */
-    public String getVersion();
+    String getVersion();
 
     /**
-     * 扫描的包路径 如 com.yuansong com.zillion，使用逗号分隔
-     * @return
+     * 扫描的包路径 如 com.yuansong，使用逗号分隔
+     * @return 扫描包
      */
-    public String getBasePackage();
+    String getBasePackage();
     /**
-     *
-     * @return
+     * 获取Tag数组
+     * @return Tag数组
      */
-    default public Tag[] getControllerTags() {
+    default Tag[] getControllerTags() {
         return null;
     }
 
